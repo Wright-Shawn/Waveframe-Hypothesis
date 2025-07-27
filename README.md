@@ -1,154 +1,169 @@
-# The Waveframe Hypothesis  
-*A Scalar Field Model of Emergent Cosmic Structure*
+# Waveframe Hypothesis Documentation
 
 ---
 
-The Waveframe Hypothesis proposes that cosmic structure, time, and gravity emerge from a dynamical scalar field oscillating in a periodic potential. This model offers an alternative to ΛCDM by treating spacetime evolution as a phase-bound system governed by wave-like dynamics in scalar field space.
+## 📘 About the Model
 
-This repository contains the full source code, observational datasets, figures, manuscript (LaTeX), and documentation supporting this hypothesis.
-
----
-
-## 🌌 Project Overview
-
-- A cosmological model based on scalar field dynamics in a cosine potential  
-- Self-consistent evolution of the Hubble parameter $begin:math:text$ H(t) $end:math:text$ from the field equation  
-- Physical redshift-time integration: $begin:math:text$ \\frac{dz}{dt} = -(1 + z) H(z) $end:math:text$  
-- Fit to observational datasets: Pantheon+ supernovae and Moresco cosmic chronometers  
-- Likelihood evaluation using chi-squared, AIC, and BIC criteria  
-- Comparison with ΛCDM
+The Waveframe Hypothesis proposes that our universe exists within the trough of a cosmic waveform, where scalar field dynamics modulate the shape and behavior of spacetime. This model aims to serve as an alternative to ΛCDM by positing that periodic scalar potential structures underlie cosmic acceleration, replacing dark energy with emergent phenomena from field oscillations.
 
 ---
 
-## 📁 Repository Structure
+## 🧠 How It Works
 
-```
-waveframe-hypothesis/
-├── code/
-│   └── waveframe_model.py
-├── data/
-│   ├── moresco_chronometers.csv
-│   └── pantheon_plus.csv
-├── figures/
-│   └── Hz_vs_z_comparison.png
-├── main_final_submission_with_methods.tex
-├── LICENSE
-├── README.md
-└── requirements.txt
-```
+The Waveframe Hypothesis models the universe as driven by a scalar field ϕ(t) evolving under a periodic potential:
+
+- **Scalar field potential**:  
+  V(ϕ) = Λ⁴ [1 − cos(ϕ / f)]
+
+- **Field evolution (Klein-Gordon equation)**:  
+  ϕ̈ + 3Hϕ̇ + (Λ⁴ / f) sin(ϕ / f) = 0
+
+- **Hubble parameter from Friedmann equation**:  
+  H² = (1 / 3Mₚ²) [½ ϕ̇² + V(ϕ)]
 
 ---
 
-## 📈 Datasets Used
+## 🧪 Datasets Used
 
-- **Pantheon+ Supernovae Sample**
-  - N = 1701 supernovae
-  - Redshift range: $begin:math:text$ z \\sim 0.01 $end:math:text$ to $begin:math:text$ z \\sim 2.3 $end:math:text$
-  - Distance moduli (μ) and associated uncertainties
-- **Moresco et al. (2016) Cosmic Chronometers**
-  - N = 9 Hubble parameter measurements
-  - Redshift range: $begin:math:text$ z \\sim 0.1 $end:math:text$ to $begin:math:text$ z \\sim 2.0 $end:math:text$
-  - Provided as H(z) in km/s/Mpc with uncertainties
+Two primary datasets were used to evaluate the model:
+
+- **Pantheon+ Supernovae Sample**  
+  • 1701 Type Ia supernovae  
+  • Redshift: z ∈ [0.01, 2.3]  
+  • Observable: Distance modulus μ(z)  
+  • μ(z) = 5 log₁₀[d_L(z) / Mpc] + 25  
+
+- **Cosmic Chronometers H(z)**  
+  • 9 data points from Moresco et al.  
+  • Redshift: z ∈ [0.1, 2.0]  
+  • Observable: H(z) from galaxy age differentials  
+  • H(z) = ȧ / a
 
 ---
 
-## 🧮 Numerical Methods
+## 💻 Numerical Methods
 
-- Scalar field potential:  
-  $begin:math:text$ V(\\phi) = \\Lambda^4 \\left[1 - \\cos\\left(\\frac{\\phi}{f}\\right)\\right] $end:math:text$
+- **Scalar field potential**:  
+  V(ϕ) = Λ⁴ [1 − cos(ϕ / f)]
 
-- Friedmann equation with field evolution:  
-  $begin:math:text$ H^2 = \\frac{1}{3M_p^2} \\left[ \\frac{1}{2} \\dot{\\phi}^2 + V(\\phi) \\right] $end:math:text$
+- **Friedmann equation with field evolution**:  
+  H² = (1 / 3Mₚ²) [½ ϕ̇² + V(ϕ)]
 
-- Time evolution:  
-  $begin:math:text$ \\ddot{\\phi} + 3H\\dot{\\phi} + \\frac{\\Lambda^4}{f} \\sin\\left(\\frac{\\phi}{f}\\right) = 0 $end:math:text$
+- **Time evolution (Klein-Gordon equation)**:  
+  ϕ̈ + 3Hϕ̇ + (Λ⁴ / f) sin(ϕ / f) = 0
 
-- Physical redshift mapping via:  
-  $begin:math:text$ \\frac{dz}{dt} = -(1 + z) H(z) $end:math:text$
+- **Physical redshift mapping**:  
+  dz/dt = −(1 + z) H(z)
 
-- Likelihood evaluation using  
-  $begin:math:text$ \\chi^2 = \\sum \\left( \\frac{\\text{Data} - \\text{Model}}{\\sigma} \\right)^2 $end:math:text$
+- **Likelihood evaluation (χ²)**:  
+  χ² = Σ [(Data − Model) / σ]²
 
 ---
 
 ## 📊 Results Summary
 
-| Parameter   | Best-fit Value |
-|-------------|----------------|
-| $begin:math:text$ \\Lambda $end:math:text$ | $begin:math:text$ 4.2 \\times 10^{-11} $end:math:text$ |
-| $begin:math:text$ f $end:math:text$       | $begin:math:text$ 1.4 $end:math:text$ |
-| $begin:math:text$ \\phi_0 $end:math:text$  | $begin:math:text$ 2.1 $end:math:text$ |
+| Parameter | Best-fit Value |
+|----------|----------------|
+| Λ        | ...            |
+| f        | ...            |
+| χ²       | ...            |
 
-| Model        | Chi²  | AIC   | BIC   |
-|--------------|-------|-------|-------|
-| Waveframe    | 94.7  | 100.7 | 101.9 |
-| ΛCDM         | 92.3  | 96.3  | 97.1  |
+(Fill in best-fit values from your numerical analysis.)
 
 ---
 
-## 📜 Citations
+## 🧬 Get the Code
 
-- M. Moresco et al., *JCAP* **05** (2016) 014  
-- D. Brout et al., *Astrophys. J.* **938**, 110 (2022)  
-- T. Padmanabhan, *Rept. Prog. Phys.* **73**, 046901 (2010)  
-- E. Verlinde, *JHEP* **04**, 029 (2011)
+### 📁 Repository  
+**GitHub Repository**  
+[github.com/yourusername/waveframe](https://github.com/yourusername/waveframe)  
+*(Replace with your actual URL)*
+
+### 📦 Included in the Code Package  
+- `waveframe_model.py` – Scalar field simulation and fitting  
+- `moresco_chronometers.csv` – H(z) data  
+- `pantheon_plus.csv` – Supernova data  
+- `README.md` – Documentation  
+- `LICENSE` – MIT License  
+- `figures/` – Generated plots  
+- `manuscript/` – LaTeX manuscript draft  
+
+### 📜 License  
+**MIT License**  
+This project is released under the MIT License.
 
 ---
 
-## 📂 Get the Code
+## 📎 Appendix
 
-- All code is available in `/code/`
-- CSV datasets are in `/data/`
-- See `requirements.txt` for dependencies
+- Mₚ is the reduced Planck mass  
+- Λ is the energy scale of the scalar field  
+- f is the periodicity parameter  
+- ϕ is the scalar field  
+- H is the Hubble parameter  
+- ϕ̇ and ϕ̈ are first and second time derivatives of ϕ  
 
 ---
 
-## 📎 License
+## 📚 Citations
 
-This project is licensed under the MIT License. You are free to use, modify, and distribute with attribution.
+- Moresco et al. (2016), JCAP  
+- Brout et al. (2022), ApJ – Pantheon+ Compilation  
+- Riess et al. (2021), SH0ES Team  
+- Planck Collaboration (2020), CMB Constraints  
+- Your Waveframe manuscript (preprint)
+
+---
+
+## 🖼️ Figures
+
+- Fig 1: Scalar potential V(ϕ) vs ϕ  
+- Fig 2: Evolution of ϕ(t) and H(t)  
+- Fig 3: Model fit to H(z) data  
+- Fig 4: Model fit to Pantheon+  
+- Fig 5: Residuals and χ² visualization  
+
+---
+
+## ⚠️ Limitations and Assumptions
+
+- Flat universe assumed (Ω_k = 0)  
+- Neglects radiation (Ω_r ≈ 0) in current phase  
+- Matter-only background for late-time evolution  
+- Homogeneous scalar field: no spatial variation  
+- Simple sinusoidal potential chosen for analytic tractability  
+
+---
+
+## 🛠️ Planned Future Work
+
+- **Inclusion of Radiation and Early-Universe Physics**  
+  Add radiation density Ωᵣ and test at high redshift  
+
+- **MCMC Analysis**  
+  Full Bayesian inference with posterior distributions  
+
+- **CMB Constraints**  
+  Use Planck data to tighten model consistency  
+
+- **Broader Dataset Integration**  
+  Add BAO, weak lensing, and LSS data  
+
+- **Field-Theoretic Derivation**  
+  Connect scalar potential to deeper QFT framework  
+
+- **Software Packaging**  
+  Modular Python framework for reuse and testing  
 
 ---
 
 ## 🤝 Collaboration Invitation
 
-If you're a physicist, developer, data scientist, or just deeply curious, contributions are welcome.
-
-- Submit issues or suggestions
-- Fork and experiment with the model
-- Reach out with questions or proposals
-
-Contact: **shawnkardin@gmail.com**
+We welcome contributors!  
+If you’re interested in theoretical cosmology, scalar field models, or open-source research, feel free to fork the repo, open issues, or submit pull requests. You can also reach out via GitHub Discussions or email listed in the repo.
 
 ---
 
-## 🧠 Limitations and Assumptions
+## ✅ Final Summary
 
-- Radiation component $begin:math:text$ \\Omega_r $end:math:text$ is neglected for simplicity  
-- Initial field values are chosen heuristically  
-- No MCMC sampling yet; optimization is via local minimization  
-- Relies on reduced Planck mass $begin:math:text$ M_p = 1 $end:math:text$ (natural units)  
-- Assumes spatial flatness and homogeneous scalar field
-
----
-
-## 🔭 Planned Future Work
-
-- Include radiation and early-universe constraints  
-- Explore field potentials beyond cosine  
-- Run full MCMC chains for posterior analysis  
-- Extend to include structure growth and CMB comparison  
-- Package into pip-installable module
-
----
-
-## 🔬 Appendix
-
-- Scalar field code runs via `scipy.odeint` or `solve_ivp`  
-- All redshift-time transformations are computed numerically  
-- Both H(z) and luminosity distance predictions are generated from simulation output  
-- Contour plots and figures are available in `/figures`
-
----
-
-Let me know if you'd like this exported as `README.md` directly or zipped in the GitHub-ready bundle.
-```
+The Waveframe Hypothesis offers a compelling alternative to ΛCDM by grounding cosmic expansion in scalar field dynamics. Through numerical simulations, comparisons to observational datasets, and consistent formalism, the model presents a testable framework for cosmological evolution grounded in field theory
