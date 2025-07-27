@@ -90,7 +90,7 @@ All code and data are available in the GitHub repository.
 ### Repository
 
 **GitHub URL:**  
-[https://github.com/Wright_Shawn/waveframe](https://github.com/Wright_Shawn/waveframe)
+[https://github.com/Wright-Shawn/waveframe](https://github.com/Wright-Shawn/waveframe)
 
 ### Included Files
 
