@@ -1,0 +1,32 @@
+% waveframe.sty – Custom LaTeX macros and formatting for the Waveframe Hypothesis
+
+\ProvidesPackage{waveframe}[2025/07/27 Waveframe formatting package]
+
+% Standard math operators
+\usepackage{amsmath, amssymb}
+\usepackage{physics}
+\usepackage{bm}  % Bold math symbols
+
+% Equation shortcuts
+\newcommand{\mpl}{M_\text{pl}}
+\newcommand{\Lag}{\mathcal{L}}
+\newcommand{\Hubble}{\mathcal{H}}
+\newcommand{\Om}{\Omega}
+\newcommand{\Planck}{\text{M}_{\text{pl}}}
+
+% Formatting tweaks
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\captionsetup{font=small, labelfont=bf}
+
+% Custom title page options
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textit{Waveframe Hypothesis (2025)}}
+\lhead{\textit{Shawn et al.}}
+
+% Colors for hyperlinks
+\usepackage{xcolor}
+\usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
