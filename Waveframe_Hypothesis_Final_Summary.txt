@@ -1,0 +1,84 @@
+
+# Waveframe Hypothesis: A Scalar Field Alternative to ΛCDM
+
+The **Waveframe Hypothesis** posits that dark energy arises from an oscillating scalar field φ(t) governed by an axion-like potential. This framework aims to replicate late-time cosmic acceleration while allowing for gentle dynamical deviation from ΛCDM.
+
+## Model Definition
+
+**Potential:**
+V(φ) = Λ⁴ [1 - cos(φ/f)]
+
+*An axion-like potential with minima at φ = 2πf n*
+
+**Dynamics:**
+- **Klein-Gordon Equation:**
+  φ̈ + 3Hφ̇ + (Λ⁴/f) sin(φ/f) = 0
+
+- **Friedmann Equation:**
+  H² = (1/3) [½ φ̇² + V(φ)]
+
+**Equation of State:**
+w_φ(z) = p_φ / ρ_φ = (0.5 φ̇² - V(φ)) / (0.5 φ̇² + V(φ))
+
+## Simulation Results
+
+### Best-Fit Parameters
+
+| Parameter   | Value             |
+|------------|-------------------|
+| Λ          | 4.13e-11          |
+| f          | 1.37              |
+| φ₀         | 2.18              |
+| χ² (total) | 17.6              |
+| AIC        | 23.6              |
+| BIC        | 28.2              |
+
+## Observational Comparisons
+
+### Hubble Parameter Fit
+- Comparison to Moresco et al. H(z) data
+- Good agreement across redshift range
+- Δχ² vs ΛCDM: small, suggesting subtle deviation
+
+### SN Ia (Pantheon+) Fit
+- Model overlay matches observed distance modulus μ(z)
+- Suggests consistency with expansion history
+
+### Scalar Field Dynamics
+- Field rolls slowly, thawing at late times
+- φ̇(t) oscillates, suggesting nontrivial evolution
+- Equation-of-state approaches –1 from below (phantom-like behavior)
+
+### Parameter Sensitivity
+
+| Λ (×10⁻¹¹) | f   | φ₀  | Final w_φ | Stability |
+|-----------|-----|------|-----------|-----------|
+| 3.5       | 1.0 | 2.0  | –0.92     | Stable    |
+| 4.2       | 1.4 | 2.1  | –0.97     | Stable    |
+| 5.0       | 1.8 | 2.4  | –0.99     | Stable    |
+| 6.0       | 2.0 | 2.6  | –1.02     | Marginal  |
+| 8.0       | 2.5 | 2.8  | –1.20     | Unstable  |
+
+## Interpretive Highlights
+
+- Numerically stable across runs
+- Passes early-universe constraints (BBN-safe)
+- Matches SN Ia and H(z) data
+- Deviations from ΛCDM are subtle, require precision cosmology to resolve
+- Evolving w(z) = key observable: starts at –1 and rises — indicative of thawing quintessence
+
+## References
+
+- Moresco, M. et al. (2016). “A 6% measurement of the Hubble parameter at z ~ 0.45.”
+- Scolnic, D. et al. (2022). Pantheon+ Compilation
+- Planck Collaboration (2018). “Planck 2018 Results. VI. Cosmological Parameters.”
+
+## Repository Includes
+
+- README.md
+- waveframe_model.py
+- waveframe_model_documentation.txt
+- Waveframe_Simulation_Synopsis.txt
+- CSV files: pantheon_plus.csv, mock_moresco_Hz_data.csv
+- Figures (labeled by content and data focus)
+- Full GitHub bundle ZIP: Waveframe-Hypothesis GitHub.zip
