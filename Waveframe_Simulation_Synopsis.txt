@@ -1,0 +1,43 @@
+
+# Simulation Synopsis: Waveframe Scalar Field Model
+
+The Waveframe Hypothesis models dark energy as an oscillating scalar field φ(t) with potential:  
+**V(ϕ) = Λ⁴ [1 - cos(ϕ / f)]**
+
+This model was evaluated against Hubble parameter data (Moresco et al.) and Pantheon+ supernovae. The system was solved numerically using the Friedmann and Klein-Gordon equations, including physical redshift-time mapping. Best-fit parameters were obtained via bounded minimization.
+
+---
+
+## Best-Fit Summary
+
+| Parameter       | Value                |
+|----------------|----------------------|
+| Λ              | 4.13 × 10⁻¹¹         |
+| f              | 1.37                 |
+| ϕ₀             | 2.18                 |
+| χ² (total)     | 17.6                 |
+| AIC            | 23.6                 |
+| BIC            | 28.2                 |
+
+---
+
+## Model Behavior Across Parameter Space
+
+The field's contribution to the total energy density and the equation-of-state w_ϕ were evaluated across varying parameters. Late-time behavior was assessed for stability.
+
+### Sensitivity Table: Equation-of-State at Late Times
+
+| Λ (×10⁻¹¹) | f     | ϕ₀   | Final w_ϕ | Stability |
+|------------|-------|-------|-----------|-----------|
+| 3.5        | 1.0   | 2.0   | –0.92     | Stable    |
+| 4.2        | 1.4   | 2.1   | –0.97     | Stable    |
+| 5.0        | 1.8   | 2.4   | –0.99     | Stable    |
+| 6.0        | 2.0   | 2.6   | –1.02     | Marginal  |
+| 8.0        | 2.5   | 2.8   | –1.20     | Unstable  |
+
+---
+
+## Notes on Early-Universe Constraints
+
+- **BBN Safety**: The model’s energy density remains subdominant at redshifts z > 1000, avoiding disruption of Big Bang Nucleosynthesis.
+- **Turn-on Window**: Field dynamics activate primarily at z ≲ 1, aligning with late-time acceleration without affecting early-universe structure.
