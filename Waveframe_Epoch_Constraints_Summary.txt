@@ -1,0 +1,31 @@
+Scalar Field Energy Fraction Across Epochs: Constraints and Conclusions
+
+Summary
+
+The Waveframe model has been tested for consistency with early-universe constraints by tracking the scalar field energy fraction:
+
+ρ_φ / ρ_total at key epochs:
+
+| Epoch               | Redshift (z) | ρ_φ / ρ_total | Interpretation                                   |
+|---------------------|---------------|----------------|--------------------------------------------------|
+| Big Bang Nucleosynthesis (BBN) | ~10⁹         | ≪ 1             | Scalar field negligible; BBN constraints satisfied |
+| Recombination        | ~1100         | < 1%           | No significant impact on CMB physics               |
+| Matter Domination     | ~10           | ~few %         | Subdominant, rising slowly                        |
+| Late-Time Universe     | < 1          | → 1             | Scalar field becomes dominant; drives acceleration |
+
+Key Conclusion
+
+The scalar field in the Waveframe model remains dynamically subdominant during both BBN and recombination. It only becomes relevant to cosmic expansion at z ≲ 1, making it consistent with observational constraints from early-universe physics.
+
+Implication
+
+The Waveframe model:
+- Behaves effectively like a cosmological constant during the early universe.
+- Transitions into a dynamical dark energy component at late times.
+- Mimics "thawing quintessence" behavior with w(z) ≈ –1 early on, rising slowly afterward.
+- Remains a viable and distinguishable alternative to ΛCDM, pending further constraints from low-redshift surveys.
+
+Next Steps
+
+- Compare w(z) predictions against reconstructed data from Pantheon+ and future DESI results.
+- Continue tuning parameters to maximize compatibility while preserving model distinctiveness.
