@@ -1,0 +1,63 @@
+Core Equations and Formulas of the Waveframe Hypothesis
+
+1. Klein–Gordon Equation for Scalar Field Evolution
+Describes the time evolution of the scalar field φ(t):
+
+ϕ̈ + 3Hϕ̇ + (Λ⁴ / f) * sin(ϕ / f) = 0
+
+- ϕ: Scalar field
+- H: Hubble parameter
+- Λ: Energy scale of the potential
+- f: Field decay constant
+
+Reference: Turner, M.S. (1983). Coherent scalar-field oscillations in an expanding universe. Phys. Rev. D, 28(6), 1243.
+
+2. Scalar Field Potential (Axion-like Form)
+Defines the potential energy of the scalar field:
+
+V(ϕ) = Λ⁴ [1 - cos(ϕ / f)]
+
+This is a periodic potential, characteristic of axion-like or pseudo-Nambu-Goldstone boson fields.
+
+Reference: Freese, K., Frieman, J.A., & Olinto, A.V. (1990). Natural inflation with pseudo-Nambu-Goldstone bosons. Phys. Rev. Lett., 65, 3233.
+
+3. Friedmann Equation (Flat Universe)
+Relates the Hubble parameter to the energy content:
+
+H² = (1 / 3Mₚ²) [½ϕ̇² + V(ϕ) + ρ_m + ρ_r]
+
+- Mₚ: Reduced Planck mass
+- ρ_m: Matter energy density
+- ρ_r: Radiation energy density
+
+4. Redshift–Scale Factor Relation
+
+1 + z = 1 / a(t)
+
+Where:
+- z: Cosmological redshift
+- a(t): Scale factor (normalized so a = 1 today)
+
+5. Equation of State Parameter (Dynamic Dark Energy)
+
+w(ϕ) = p_ϕ / ρ_ϕ
+
+Where:
+p_ϕ = ½ϕ̇² - V(ϕ)
+ρ_ϕ = ½ϕ̇² + V(ϕ)
+
+This characterizes the "thawing" or "freezing" nature of dark energy evolution.
+
+Reference: Caldwell, R.R., & Linder, E.V. (2005). The limits of quintessence. Phys. Rev. Lett., 95, 141301.
+
+6. Luminosity Distance
+
+d_L(z) = (1 + z) * ∫₀ᶻ (dz' / H(z'))
+
+This is used to compare the model's prediction to SN Ia data like Pantheon+.
+
+7. Distance Modulus
+
+μ(z) = 5 * log₁₀[d_L(z) / (10 pc)]
+
+Used for comparison with supernova data.
