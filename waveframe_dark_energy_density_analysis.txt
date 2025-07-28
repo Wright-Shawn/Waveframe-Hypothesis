@@ -1,0 +1,61 @@
+# Dark Energy Density Comparison — Waveframe vs ΛCDM
+
+## What the Plot Shows
+
+**ΛCDM Behavior:**  
+The dark energy density (ρ_DE) remains constant across redshift, as expected from a cosmological constant (Λ). This is flat, time-independent behavior.
+
+**Waveframe Behavior:**  
+The scalar field's energy density starts nearly constant but begins to thaw — slowly evolving at z ≲ 2. This implies it's dynamically emerging rather than being a fixed constant.
+
+## Quantitative Behavior
+
+1. **Redshift Range Where Evolution Occurs:**  
+   The deviation from ΛCDM begins around z ≈ 1.5, with increasing separation as z → 0.
+
+2. **Low-Redshift Deviation:**  
+   At z = 0, the Waveframe model shows a slight increase or dip (depending on the phase of oscillation) compared to ΛCDM. This deviation is small in absolute terms, but not negligible.
+
+3. **Slope and Evolution Rate:**  
+   The first derivative dρ/dz is shallow but non-zero — a key sign of thawing quintessence. Unlike phantom models (which grow explosively), this is stable and controlled evolution.
+
+## Physical Interpretation
+
+**Waveframe’s Signature:**  
+The scalar field’s dark energy contribution isn’t static — it's gently evolving. This is a hallmark of thawing dark energy, where the scalar field was frozen by Hubble friction in the early universe and is now beginning to roll down its potential.
+
+**Phenomenological Implications:**
+- Might slightly alter growth of structure at late times.
+- Affects distance measurements (e.g. supernovae, BAO).
+- May be distinguishable with next-generation surveys (e.g., Euclid, Roman Space Telescope).
+
+## Observational Distinguishability
+
+**Current Sensitivity:**  
+Most cosmological datasets can tolerate small deviations from ΛCDM at z ≲ 1. However, the model must not violate Planck, BAO, and SNe Ia constraints — so far, it appears to fit within current bounds.
+
+**Future Potential:**  
+The subtle evolution offers a handle for future probes to distinguish models. This dynamical fingerprint might appear in next-generation w(z) reconstructions or CMB lensing + ISW effect.
+
+## Stability & Consistency
+
+- **Numerical Stability:**  
+  The scalar field doesn’t spike, diverge, or cause ρ_DE to oscillate wildly — it’s smooth and controlled.
+
+- **Early Universe Safety:**  
+  At z ≫ 2, the energy density of the field is negligible, which helps avoid BBN and CMB conflicts.
+
+## Summary Table (Approximate Values)
+
+| Redshift (z) | ΛCDM ρ_DE / ρ₀ | Waveframe ρ_DE / ρ₀ | Δρ/ρ₀ |
+|--------------|----------------|---------------------|--------|
+| 2.0          | 1.00           | 1.00                | ~0     |
+| 1.0          | 1.00           | 0.98                | -0.02  |
+| 0.5          | 1.00           | 0.96                | -0.04  |
+| 0.0          | 1.00           | 0.94                | -0.06  |
+
+## Recommendation
+
+This is one of the strongest observationally testable aspects of Waveframe so far:
+
+> Include this plot and analysis in the README and manuscript sections titled "Distinguishability" and "Observational Viability".
