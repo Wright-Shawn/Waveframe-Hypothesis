@@ -1,0 +1,53 @@
+
+Waveframe Hypothesis: Cleaned Model & Parameter Definitions
+============================================================
+
+Parameter Definitions
+---------------------
+All quantities are expressed in natural units (c = ℏ = 1, M_pl = 1).
+
+- Λ (Lambda): Energy scale of the potential [unitless in natural units]
+  Typical test value: 1e-3
+- f: Decay constant that determines periodicity of the potential [unitless]
+  Typical test value: 0.2
+- φ₀ (phi_0): Initial value of the scalar field [unitless]
+  Typical test value: 2.5
+- 𝜙̇₀ (phidot_0): Initial field velocity [unitless]
+  Typical value: 0.0 (field initially at rest)
+
+Dynamical System
+----------------
+We evolve the scalar field φ(t) in a cosmological background using:
+
+1. Klein-Gordon Equation:
+   φ̈ + 3Hφ̇ + (Λ⁴ / f) * sin(φ / f) = 0
+
+2. Friedmann Equation:
+   H² = (1 / 3M_pl²) * [0.5 * φ̇² + V(φ)]
+
+Potential Function
+------------------
+   V(φ) = Λ⁴ * [1 - cos(φ / f)]
+
+   This is an axion-like potential with minima at integer multiples of 2πf.
+
+Observable Quantities
+---------------------
+1. Hubble Parameter:
+   H(z) is derived by transforming φ(t) and H(t) into redshift space.
+
+2. Equation of State Parameter:
+   w(z) = p_φ / ρ_φ
+
+   where:
+     ρ_φ = 0.5 * φ̇² + V(φ)
+     p_φ = 0.5 * φ̇² - V(φ)
+
+   w(z) ≈ -1 when the field is frozen; deviation from -1 implies dynamics.
+
+Use Notes
+---------
+- Initial conditions should be chosen such that φ does not immediately roll to a minimum.
+- Λ and f affect the dynamics critically: high Λ or low f leads to faster evolution.
+- Integrate with stiff solver (e.g. Radau) to handle slow thawing.
+
