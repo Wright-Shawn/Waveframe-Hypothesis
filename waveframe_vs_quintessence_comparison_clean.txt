@@ -1,0 +1,38 @@
+
+Waveframe vs Standard Quintessence Models
+=========================================
+
+Overview:
+---------
+The Waveframe model introduces a scalar field with a periodic potential inspired by axion-like or pseudo-Nambu-Goldstone boson theories, in contrast to standard quintessence models which often employ monotonic potentials like inverse power-law or exponential forms.
+
+Key Differences:
+----------------
+
+1. **Potential Shape:**
+   - *Waveframe:* Uses a periodic potential V(ϕ) = Λ⁴ [1 - cos(ϕ/f)]
+   - *Quintessence:* Common forms include V(ϕ) ∝ ϕ^(-n), V(ϕ) ∝ exp(-λϕ)
+
+2. **Dynamical Behavior:**
+   - *Waveframe:* Field exhibits oscillatory behavior due to sinusoidal potential, leading to potential late-time tracking or thawing-like dynamics.
+   - *Quintessence:* Field rolls down a slope more monotonically; less likelihood of oscillation unless initial conditions are fine-tuned.
+
+3. **Initial Conditions Sensitivity:**
+   - *Waveframe:* Model can remain subdominant in early universe for a wide range of initial conditions.
+   - *Quintessence:* Requires tuning to avoid early dominance and maintain consistency with BBN and CMB.
+
+4. **Equation-of-State Evolution:**
+   - *Waveframe:* w(z) evolves from near –1 toward less negative values as field thaws.
+   - *Quintessence:* Similar behavior, but typically less structured evolution unless specially constructed.
+
+5. **Distinguishability:**
+   - *Waveframe:* Has a natural scale (f) and curvature (Λ) that can be constrained observationally through H(z), w(z), and φ̇².
+   - *Quintessence:* Can mimic ΛCDM closely; requires specific observational tests (e.g., CMB, structure formation) to distinguish.
+
+6. **Attractor Behavior:**
+   - *Waveframe:* Can exhibit dynamical attractors, especially in high friction regimes (Hubble-damped oscillations).
+   - *Quintessence:* Tracker models explicitly use attractor solutions, but exponential potentials may lack robustness.
+
+Conclusion:
+-----------
+Waveframe offers a richer phase space and can interpolate between thawing and tracking dynamics depending on parameter choices. It is a subset of quintessence but with periodic structure that adds potential observational signatures not present in simpler models.
