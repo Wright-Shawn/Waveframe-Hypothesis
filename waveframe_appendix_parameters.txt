@@ -1,0 +1,27 @@
+
+Appendix A: Glossary of Parameters
+
+| Symbol         | Description                                                                 | Units (Natural)    | Notes                                                                 |
+|----------------|------------------------------------------------------------------------------|--------------------|-----------------------------------------------------------------------|
+| φ              | Scalar field driving expansion dynamics                                      | [mass]             | Assumed to have canonical kinetic term; dimension-1 field             |
+| ϕ̇             | Time derivative of scalar field                                              | [mass²]            | Appears in kinetic energy term of Friedmann equation                  |
+| f              | Frequency scale of the scalar potential                                      | [mass]             | Sets period of oscillations in V(ϕ); must match ϕ's units             |
+| Λ              | Energy scale of the potential V(ϕ)                                          | [mass]             | Λ⁴ defines potential amplitude; sets acceleration scale               |
+| V(ϕ)           | Scalar potential energy driving expansion                                    | [mass⁴]            | Given by V(ϕ) = Λ⁴ (1 - cos(ϕ / f))                                   |
+| H              | Hubble parameter                                                             | [mass]             | Defined as H = ȧ/a; appears in Friedmann and field EOMs               |
+| a              | Scale factor of the universe                                                 | dimensionless      | Normalized to 1 at present time                                       |
+| t              | Cosmic time                                                                  | [mass⁻¹]           | Natural units: ℏ = c = 1                                              |
+| z              | Redshift                                                                     | dimensionless      | Related via 1 + z = 1/a                                               |
+| Ωₘ             | Matter density fraction                                                      | dimensionless      | Varies with time: Ωₘ(a) = Ωₘ₀ H₀² / (H² a³)                           |
+| H₀             | Present-day Hubble parameter                                                 | [mass]             | Often written in km/s/Mpc; use consistent conversion when needed      |
+| Mₚₗ            | Reduced Planck mass (~2.4 × 10¹⁸ GeV)                                        | [mass]             | Appears in Friedmann normalization                                   |
+| D(z)           | Linear growth factor of matter perturbations                                 | dimensionless      | Normalized to D(z=0) = 1                                              |
+| f(z)           | Growth rate dlnD / dlna                                                      | dimensionless      | Used in fσ₈(z) observational comparison                               |
+| σ₈             | Normalization of density fluctuations at 8 Mpc/h scale                       | dimensionless      | Observational parameter fitted via RSD data                           |
+| fσ₈(z)         | Combined growth observable from RSD surveys                                  | dimensionless      | Product of f(z) and σ₈                                                |
+| μ(z)           | Distance modulus from SN Ia observations                                     | dimensionless      | μ = 5 log₁₀(d_L/Mpc) + 25                                            |
+| χ²             | Goodness-of-fit metric                                                       | dimensionless      | Sum over (data - model)² / σ²                                        |
+| AIC            | Akaike Information Criterion                                                 | dimensionless      | χ² + 2k, penalizes overfitting                                       |
+| BIC            | Bayesian Information Criterion                                               | dimensionless      | χ² + k log N, stronger penalty than AIC                              |
+| k              | Number of model parameters                                                   | dimensionless      | Varies between ΛCDM and Waveframe fits                               |
+| N              | Number of data points                                                        | dimensionless      | Used in BIC formula                                                   |
