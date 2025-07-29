@@ -39,15 +39,15 @@ Where:
 
 ## Observational Relevance
 
-✔ Fit tested against:
+Fit tested against:
 - Type Ia Supernovae (μ(z))
 - Cosmic chronometers (H(z))
 
-✔ Statistical metrics:
+Statistical metrics:
 - χ² goodness-of-fit
 - AIC/BIC for model comparison
 
-✔ In development:
+In development:
 - Linear growth factor D(z), fσ₈(z)
 - BAO peak data integration
 - Early-universe CMB constraint testing
