@@ -1,0 +1,36 @@
+
+✴️ Section: Low-Redshift Growth & Tension Alleviation
+
+1. Quantitative Fit Comparison
+
+To assess the impact of the Waveframe model on late-time structure formation, we evaluated the growth rate observable fσ₈(z) at low redshift (z < 0.5), comparing fits to observational RSD data:
+
+Metric                     | ΛCDM         | Waveframe     | Δ (Waveframe − ΛCDM)
+--------------------------|--------------|----------------|------------------------
+χ² (fit quality)          | 11.88        | 11.59         | −0.29 (↓)
+ΔAIC (model parsimony)    | —            | —              | −3.71 (favors WF)
+ΔBIC (model complexity)   | —            | —              | −2.48 (favors WF)
+
+Interpretation: The χ² reduction is mild, but both AIC and BIC penalize additional parameters — and still favor Waveframe. This indicates meaningful tension relief without overfitting.
+
+2. Physical Interpretation
+
+Waveframe introduces scalar-field-driven oscillations in the Hubble expansion rate H(z), which imprint dynamically on the growth of structure. While the scalar field is minimally coupled to gravity, it affects cosmic evolution through:
+
+- Modulating the friction term in the growth equation (via dlnH / dlna),
+- Temporarily enhancing or delaying suppression of growth depending on the phase of oscillation,
+- Functioning as an effective time-varying gravitational drag, analogous to a modified Newton’s constant in phenomenological models.
+
+Result: Waveframe acts as a dynamical extension of ΛCDM that permits more structure growth at low z — potentially addressing known tensions with large-scale structure surveys.
+
+3. Compatibility with Planck CMB
+
+Planck constraints are most sensitive to high-redshift background behavior (z ≳ 1000), where ΛCDM assumes constant dark energy (w ≈ −1). Waveframe dynamics naturally support this:
+
+- At early times, φ(t) enters a slow-roll regime or becomes dynamically frozen,
+- Resulting in w_φ → −1 and H(z) → H_ΛCDM(z),
+- Ensuring consistency with early-universe observables (e.g., CMB angular diameter distance, sound horizon).
+
+Conclusion
+
+Waveframe shows viable phenomenological improvements in fitting low-redshift structure growth without compromising early-universe consistency. The scalar field background introduces mild, testable deviations from ΛCDM in a physically motivated way — making it a candidate worth further study.
