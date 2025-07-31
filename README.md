@@ -1,5 +1,7 @@
 Waveframe Hypothesis
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16657151.svg)](https://doi.org/10.5281/zenodo.16657151)
+
 Overview
 
 The Waveframe Hypothesis proposes a novel cosmological framework in which late-time cosmic acceleration arises from a real scalar field φ(t) evolving in a periodic potential:
