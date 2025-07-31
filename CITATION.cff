@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this model or codebase in your work, please cite this repository."
+title: "Waveframe Hypothesis"
+version: "0.1"
+date-released: 2025-07-31
+authors:
+  - family-names: Wright
+    given-names: Shawn C.
+    name: Shawn C. Wright
+    orcid: ""
+repository-code: "https://github.com/Wright-Shawn/Waveframe-Hypothesis.git"
+url: "https://github.com/Wright-Shawn/Waveframe-Hypothesis"
+license: "MIT"
+abstract: >
+  The Waveframe Hypothesis is a new take on cosmology that models the universe’s expansion using an oscillating scalar field inspired by axion physics. It aims to match real data like Hubble expansion and structure growth while offering a theoretically grounded alternative to ΛCDM.
