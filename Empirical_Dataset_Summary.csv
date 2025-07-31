@@ -1,0 +1,12 @@
+Description,File Path
+Hubble Data (Physical Units),/mnt/data/Rescaled_Hz_physical_units.csv
+Reintegrated H(z) Data (Natural Units),/mnt/data/Reintegrated_H_z__Data.csv
+Moresco Chronometers,/mnt/data/moresco_chronometers.csv
+Pantheon+ Supernovae,/mnt/data/pantheon_plus.csv
+Waveframe fσ₈(z) Predictions,/mnt/data/fs8_waveframe_final.csv
+Synthetic RSD Data,/mnt/data/synthetic_rsd_data.csv
+Refined μ(z) Fit,/mnt/data/Refined_mu_fit_shifted.csv
+ΛCDM fσ₈(z) Comparison,/mnt/data/fs8_lcdm_final.csv
+Final fσ₈(z) Comparison,/mnt/data/Final_f___z__Comparison.csv
+Hz with ΛCDM + Waveframe,/mnt/data/mock_moresco_Hz_with_LCDM_waveframe.csv
+Statistical Model Comparison,/mnt/data/model_comparison_stats.csv
