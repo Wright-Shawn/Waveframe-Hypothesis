@@ -88,3 +88,22 @@ Future Work
 License
 
 MIT License
+
+
+##Citation
+
+If you use or reference this work, please cite:
+
+> Wright, S. (2025). *Waveframe Hypothesis: A Dynamical Framework for Cosmic Evolution*. Zenodo. https://doi.org/10.5281/zenodo.16657151
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16657151.svg)](https://doi.org/10.5281/zenodo.16657151)
+
+---
+
+##Roadmap
+
+See [ROADMAP.md](./ROADMAP.md)
+
+##Change Log
+
+See [CHANGELOG.md](./CHANGELOG.md)
