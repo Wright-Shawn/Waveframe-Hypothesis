@@ -1,5 +1,10 @@
 Waveframe Hypothesis
 
+> **Project Direction Update**  
+> This repository documents version 0.2 of the Waveframe Hypothesis.  
+> Active development has now shifted to [Waveframe v2.0][https://github.com/Wright-Shawn/waveframe-emergent-time], which formalizes a cyclic cosmology with emergent time from scalar field dynamics.  
+> v2.0 builds on this foundation and includes refined equations, updated observational fits, and a revised theoretical framework.
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16657151.svg)](https://doi.org/10.5281/zenodo.16657151)
 
 Overview
